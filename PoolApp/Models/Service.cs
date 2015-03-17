@@ -14,5 +14,17 @@ namespace PoolApp.Models
         public string WorkUnit { get; set; }
 
         public virtual Invoice Invoices { get; set; }
+
+        public Service()
+        {
+
+        }
+
+        public Service(string Name, decimal Cost, string WorkUnit)
+        {
+            this.Name = Name;
+            this.Cost = Cost;
+            this.WorkUnit = WorkUnit;
+        }
     }
 }

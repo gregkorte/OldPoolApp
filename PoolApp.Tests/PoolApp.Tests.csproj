@@ -84,7 +84,11 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\HomeControllerTest.cs" />
+    <Compile Include="Repository\CustomerModelTest.cs" />
+    <Compile Include="Repository\InvoiceModelTest.cs" />
     <Compile Include="Repository\PoolAppRepositoryTest.cs" />
+    <Compile Include="Repository\ProductModelTest.cs" />
+    <Compile Include="Repository\ServiceModelTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />

@@ -39,7 +39,6 @@ namespace PoolApp.Models
             this.Phone = Phone;
             this.Email = Email;
             this.Notes = Notes;
-
         }
     }
 }

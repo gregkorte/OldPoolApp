@@ -23,5 +23,26 @@ namespace PoolApp.Models
         public string ImageUrl { get; set; }
 
         public virtual Invoice Invoices { get; set; }
+
+        public Product()
+        {
+
+        }
+
+        public Product(string Name, string Company, string Manufacturer, string ProductNumber, string ManufacturerPartNumber, string UnitOfMeasurement, string Description, string Department, string ProductLine, string Upc, decimal Cost, string ImageUrl)
+        {
+            this.Name = Name;
+            this.Company = Company;
+            this.Manufacturer = Manufacturer;
+            this.ProductNumber = ProductNumber;
+            this.ManufacturerPartNumber = ManufacturerPartNumber;
+            this.UnitOfMeasurement = UnitOfMeasurement;
+            this.Description = Description;
+            this.Department = Department;
+            this.ProductLine = ProductLine;
+            this.Upc = Upc;
+            this.Cost = Cost;
+            this.ImageUrl = ImageUrl;
+        }
     }
 }
